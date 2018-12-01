@@ -1,7 +1,7 @@
 <?php
-// 任总！任总！
-// 任总！任总！
-// 任总！任总！
+for ($i=0; $i < 100; $i++) { 
+    echo '任总！任总！';
+}
 class Test {
     private $key;
     private $value;
