@@ -3,7 +3,8 @@
 	private $value;
 
 	public function setKey($key) {
-		$this->key = $key;
+		if($key > 0)
+			$this->key = $key;
 	}
  
 	public function getKey() {
